@@ -8,9 +8,9 @@ body {
 }
 
 .button{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   font-size: 1rem;
-  background:#ebebeb;
+  background: darkblue;
   border-radius: 30px;
   transition: 0.5s;
   padding: 10px 20px 10px 20px;
@@ -31,6 +31,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 15vh;
 }
 
 #game {
