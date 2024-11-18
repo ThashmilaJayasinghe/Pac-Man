@@ -2,9 +2,9 @@
   "name": "pac-man",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
-    "start": "parcel serve index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.13.0"
+    "parcel": "^2.13.0",
+    "svgo": "^3.3.2"
   }
 }
