@@ -28,7 +28,7 @@ let gameWin = false;
 let powerPillActive = false;
 let powerPillTimer = null;
 
-//audio
+// playing audio
 function playAudio(audio){
     const soundEffect = new Audio(audio);
     soundEffect.play();
